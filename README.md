@@ -20,21 +20,21 @@ Django 5.1+
 INSTALLATION:
 
 1. Clone the repository:
-git clone <repository-url>
-cd <project-directory>
+   git clone <repository-url>
+   cd <project-directory>
 
 2. Create a virtual environment:
-python -m venv venv
-source venv/bin/activate  (# On Windows, use `venv\Scripts\activate`)
+   python -m venv venv
+   source venv/bin/activate  (# On Windows, use `venv\Scripts\activate`)
 
 3. Install dependencies:
-pip install -r requirements.txt
+   pip install -r requirements.txt
 
 4. Run migrations:
-python manage.py migrate
+   python manage.py migrate
 
 5. Start the development server:
-python manage.py runserver
+   python manage.py runserver
 
 KEY IMPLEMENTATION DETAILS:
 Uses Django's built-in authentication system
