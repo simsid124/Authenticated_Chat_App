@@ -5,7 +5,7 @@ Login with username or email
 Secure password management
 Authentication-based access control
 
-2. Pages
+3. Pages
 Login Page
 Sign Up Page
 Forgot Password
@@ -20,8 +20,8 @@ Django 5.1+
 INSTALLATION:
 
 1. Clone the repository:
-   git clone <repository-url>
-   cd <project-directory>
+   git clone [<repository-url>](https://github.com/simsid124/Authenticated_Chat_App/)
+   cd chatapp
 
 2. Create a virtual environment:
    python -m venv venv
@@ -37,7 +37,4 @@ INSTALLATION:
    python manage.py runserver
 
 KEY IMPLEMENTATION DETAILS:
-Uses Django's built-in authentication system
-Implements custom forms and views for authentication flows
-Includes email-based password reset functionality
-Secure password validation and error handling
+Uses Django's built-in authentication system, Implements custom forms and views for authentication flows, Includes email-based password reset functionality, Secure password validation and error handling
