@@ -1,0 +1,12 @@
+{% extends 'layout/app.html' %}
+
+{% block title %}Dashboard{% endblock %}
+
+{% block content %}
+    <h1>Welcome {{ request.user.username }} to the Dashboard</h1>
+    <p>Here you can manage your account.</p>
+    <ul>
+        <li><a href="{% url 'profile' %}">Go to Profile</a></li>
+        <li><a href="{% url 'change_password' %}">Change Password</a></li>
+    </ul>
+{% endblock %}
